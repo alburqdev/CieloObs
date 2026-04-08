@@ -52,7 +52,7 @@ class _NuevaObservacionScreenState extends State<NuevaObservacionScreen> {
 
   bool _grabandoAudio = false;
   bool _cargando = false;
-  final _audioRecorder = AudioRecorder();
+  // final _audioRecorder = AudioRecorder();
 
   @override
   void initState() {
@@ -79,7 +79,7 @@ class _NuevaObservacionScreenState extends State<NuevaObservacionScreen> {
     _descripcionCtrl.dispose();
     _duracionCtrl.dispose();
     _ubicacionTextoCtrl.dispose();
-    _audioRecorder.dispose();
+    // _audioRecorder.dispose();
     super.dispose();
   }
 
@@ -155,7 +155,7 @@ class _NuevaObservacionScreenState extends State<NuevaObservacionScreen> {
 
   // ── Audio ──────────────────────────────────────────────────────
 
-  Future<void> _toggleGrabar() async {
+  /* Future<void> _toggleGrabar() async {
     if (_grabandoAudio) {
       final path = await _audioRecorder.stop();
       setState(() {
@@ -178,7 +178,7 @@ class _NuevaObservacionScreenState extends State<NuevaObservacionScreen> {
       }
     }
   }
-
+ */
   // ── Guardar ────────────────────────────────────────────────────
 
   Future<void> _guardar() async {
