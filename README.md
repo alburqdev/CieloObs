@@ -8,7 +8,7 @@
 
 | Campo | Valor |
 |------|-------|
-| **Nombre** | *(configurar en la app)* |
+| **Nombre** | *Luis Alburquerque* |
 | **Matrícula** | 20240191 |
 | **Asignatura** | Aplicaciones Móviles |
 
