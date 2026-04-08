@@ -52,7 +52,7 @@ class _NuevaObservacionScreenState extends State<NuevaObservacionScreen> {
 
   bool _grabandoAudio = false;
   bool _cargando = false;
-  final _audioRecorder = Record();
+  final _audioRecorder = AudioRecorder();
 
   @override
   void initState() {
