@@ -476,7 +476,7 @@ class _NuevaObservacionScreenState extends State<NuevaObservacionScreen> {
                         minimumSize:
                             const Size(double.infinity, 44),
                       ),
-                      onPressed: _toggleGrabar,
+                      onPressed: () {},
                       icon: Icon(_grabandoAudio
                           ? Icons.stop_rounded
                           : Icons.mic_none_outlined),
